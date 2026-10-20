@@ -2,6 +2,8 @@
 
 Start here for every product. Grok Bot and Claude read this note first, then [[Preferences]], then that product's master note. Cursor agents start at that product's `AGENTS.md`. They do not need this repo to build.
 
+Owners and due dates: [[Open-Items]].
+
 ## How to open
 
 Two Obsidian vaults. This repo is one. Each product repo is another. Switch with Obsidian's vault switcher. This note lists products. It does not hold a product's status.
