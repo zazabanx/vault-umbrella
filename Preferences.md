@@ -1,7 +1,5 @@
 # Preferences
 
-> Draft, not in force, until this file lives in the private umbrella repo. Delete this line when copying. Product rules stay in that product's vault. AutoClip's home is [[AutoClip]].
-
 How the user works, and what needs a yes. Product status does not go here. Add a line only after the user has used the rule on a real product.
 
 ## Who does what
@@ -25,7 +23,7 @@ How the user works, and what needs a yes. Product status does not go here. Add a
 - Create a note only when no existing note fits. Append otherwise.
 - No secrets in any vault.
 - Commit by hand. Do not turn on an auto-commit plugin.
-- Compare the build-loop stamp by hand when the loop changes ([[build-loop-template]]). It is not a scheduled job.
+- Compare the build-loop stamp by hand when the loop changes ([[build-or-improve]]). It is not a scheduled job.
 
 ## Routines
 

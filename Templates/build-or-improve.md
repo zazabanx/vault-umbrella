@@ -1,8 +1,6 @@
 # Build or improve
 
-> Draft, not in force, until this file lives in the private umbrella repo. Delete this line when copying. In that repo, save this note as `Templates/build-or-improve.md`. The live AutoClip playbook is [[build-or-improve]]. The stamped steps are in [AGENTS.md](../../../AGENTS.md).
-
-Stamp on this proposal: `build-loop v1`. AutoClip's product copy is `build-loop v2` (the 2026-10-16 plan-before-code decision in [AGENTS.md](../../../AGENTS.md)). Do not copy this v1 block over that product file. When this proposal's stamp changes, update the product copy in a pull request. Do not schedule the compare.
+Stamp on this proposal: `build-loop v1`. AutoClip's product copy is `build-loop v2` (the 2026-10-16 plan-before-code decision in `AGENTS.md` in `zazabanx/auto-clip-system`). Do not copy this v1 block over that product file. When this proposal's stamp changes, update the product copy in a pull request. Do not schedule the compare.
 
 Step 1 of any run is that product's master note. Then follow the steps below. Do not copy product names, clip ids, or lock numbers into this note.
 
