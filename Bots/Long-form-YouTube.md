@@ -11,17 +11,7 @@ Long-form Elden Ring YouTube episodes from the 2026-10-07, 2026-10-08, 2026-10-0
 
 ## Open
 
-| ID | Item | Owner | Due | State |
-| --- | --- | --- | --- | --- |
-| pr-70 | PR #70 facecam empty-chair detector (merge after the PC tests) | Long-form YouTube |  | open |
-| pr2 | PR2 speech and mic signals | Long-form YouTube |  | open |
-| pr3 | PR3 break report writer | Long-form YouTube |  | open |
-| oct15-person | Oct 15 person-detection PR (PP-HumanSeg) | Long-form YouTube |  | open |
-| oct9-report | Oct 9 break report | Long-form YouTube | 2026-10-21 | open |
-| vod-reports | Oct 7, Oct 8, and Oct 15 break reports | Long-form YouTube |  | open |
-| editor | Editor code, after the break reports | Long-form YouTube |  | open |
-
-State is `open`, `waiting on user since YYYY-MM-DD`, or `done`.
+Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 

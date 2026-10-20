@@ -5,22 +5,14 @@ Chief of staff and main chat for zazabanx. Takes every request, routes it to the
 ## Now
 
 - Tracking the scout (2026-10-24), the detector work queue, the Long-form editor, and the user's open approvals.
-- Morning summary daily at ~9:51 AM ET. Reads `vault/Open-Items.md` in `zazabanx/auto-clip-system`. Shows items finished early and items waiting on the user.
+- Morning summary daily at ~9:51 AM ET. Reads [[Open-Items]]. Shows items finished early and items waiting on the user.
 - Routes: Auto-clip Engineer (detector, clips, PRs, tests, scans, vault); [[Bots/Long-form-YouTube]] (Elden Ring episodes, break reports, editor, upload prep); [[Bots/Personal]] (flights, purchases, personal research).
 - New-product kickoffs: read [[Home]], [[Preferences]], [[new-product]], and [[build-or-improve]]; create the product vault from the template; link it from the umbrella; brief a product bot.
 - Auditor-bot revisit on 2026-11-01.
 
 ## Open
 
-| ID | Item | Owner | Due | State |
-| --- | --- | --- | --- | --- |
-| scout | Scout | Proxy | 2026-10-24 | open |
-| detector-queue | Detector work queue | Auto-clip Engineer |  | open |
-| longform-editor | Long-form editor | Long-form YouTube |  | open |
-| approvals | User's open approvals | user |  | open |
-| auditor-revisit | Auditor-bot revisit | Proxy | 2026-11-01 | open |
-
-State is `open`, `waiting on user since YYYY-MM-DD`, or `done`.
+Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 

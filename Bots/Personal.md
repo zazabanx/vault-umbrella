@@ -11,11 +11,7 @@ Personal tasks outside software projects: flights, purchases, bookings, and pers
 
 ## Open
 
-| ID | Item | Owner | Due | State |
-| --- | --- | --- | --- | --- |
-| sanibel-flights | Sanibel flight pick (back by 2026-11-12) | user |  | waiting on user since 2026-10-20 |
-
-State is `open`, `waiting on user since YYYY-MM-DD`, or `done`.
+Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 
