@@ -99,11 +99,11 @@ Clips in PC `Videos\Postable_Needs_Work` are postable but need work (normal fold
 
 | ID | Item | Owner | Due | State | Source |
 |---|---|---|---|---|---|
-| LF-001 | PR #70 merge (https://github.com/zazabanx/auto-clip-system/pull/70, head f23c62b; Claude approved). Done: merged into main at 11:51 PM ET on Oct 20, 2026 (head f23c62b, merge commit a9aa562). #90 (ae8277e) and #91 (2edda0e) are awaiting Claude re-review; both passed their PC tests. | Long-form | 2026-10-21 | done 2026-10-20 | user via Proxy, Oct 20 6:19 PM |
-| LF-002 | PR2 break-report changes (plan approved) | Long-form | 2026-10-21 | open: code starts when #70 merges | user via Proxy, Oct 20 |
-| LF-003 | PR3 review/apply changes (plan approved) | Long-form | 2026-10-21 | open: code starts when #70 merges | user via Proxy, Oct 20 |
-| LF-004 | Person-detection PR for Oct 15 (plan approved). Done: PR #89 (person detection) merged into main at 11:57 PM ET on Oct 20, 2026 (head 25136d8, merge commit 59b55be). | Long-form | 2026-10-22 | done 2026-10-20 | user via Proxy, Oct 20 6:19 PM |
-| LF-005 | Break report: Oct 9 recut | Long-form | 2026-10-22 | open: needs #70, PR2, PR3 | user via Proxy |
+| LF-001 | PR #70 merge (https://github.com/zazabanx/auto-clip-system/pull/70, head f23c62b; Claude approved). Done: merged into main 11:50 PM ET Oct 20, 2026 (merge commit a9aa562); PC run_tests_pc.ps1 SUMMARY: PASS before merge. | Long-form | 2026-10-21 | done 2026-10-20 | user via Proxy, Oct 20 6:19 PM |
+| LF-002 | PR2 break-report changes (plan approved). Done: auto-clip #90 merged Oct 20, 2026 (merge commit e80b130); PC SUMMARY: PASS. | Long-form | 2026-10-21 | done 2026-10-20 | user via Proxy, Oct 20 |
+| LF-003 | PR3 review/apply changes (plan approved). Done: auto-clip #91 merged Oct 20, 2026 (merge commit 19ba9e8); PC SUMMARY: PASS. | Long-form | 2026-10-21 | done 2026-10-20 | user via Proxy, Oct 20 |
+| LF-004 | Person-detection PR for Oct 15 (plan approved). Done: auto-clip #89 merged 11:57 PM ET Oct 20, 2026 (merge commit 59b55be); PC SUMMARY: PASS. | Long-form | 2026-10-22 | done 2026-10-20 | user via Proxy, Oct 20 6:19 PM |
+| LF-005 | Break report: Oct 9 recut | Long-form | 2026-10-22 | open | user via Proxy |
 | LF-006 | Break report: Oct 7 | Long-form | 2026-10-22 | open: after Oct 9 | user via Proxy |
 | LF-007 | Break report: Oct 8 | Long-form | 2026-10-22 | open: after Oct 9 | user via Proxy |
 | LF-008 | Break report: Oct 15 | Long-form | 2026-10-23 | open: needs the person PR | user via Proxy |
