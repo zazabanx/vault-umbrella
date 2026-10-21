@@ -104,9 +104,9 @@ Clips in PC `Videos\Ready_To_Post` feed the Publishing bot (PX-005). Renders & R
 | LF-008 | Break report: Oct 15 | Long-form | 2026-10-23 | open: needs the person PR | user via Proxy |
 | LF-009 | Editor PR5 (plan v1 approved Oct 20 6:59 PM) | Long-form | 2026-10-24 | open: code after #70, PR2, PR3, person PR | user via Proxy, Oct 20 6:39 PM |
 | LF-010 | DaVinci Resolve test clip (60 s, 4 tracks, plus a timeline file). Mac path ~/longform-check/resolve-smoke/ | Long-form | 2026-10-21 | done 2026-10-20 | user via Proxy, Oct 20 7:00 PM |
-| LF-011 | DaVinci editing package PR6 | Long-form | 2026-10-26 | open: after the user's Resolve Studio 20 import test on the PC | user via Proxy, Oct 20 6:53 PM |
+| LF-011 | DaVinci editing package PR6 | Long-form | 2026-10-26 | open: queued after editor PR5; no longer blocked on the user | user via Proxy, Oct 20 6:53 PM |
 | LF-012 | YouTube upload prep (finals plus titles/descriptions for review) | Long-form | 2026-10-26 | open: needs editor plus the user's break ticks; nothing posted without the user's explicit OK | standing rule |
-| LF-013 | DaVinci smoke test on the PC | Long-form | 2026-10-22 | waiting on user since 2026-10-20 (files copied to the PC with verified hashes 7:30 PM ET; try one Resolve import) | user via Proxy |
+| LF-013 | DaVinci smoke test on the PC. Done: passed 2026-10-20 8:24 PM ET (mkv shows 4 audio tracks; fcpxml timeline imported with 2 clips and 4 audio tracks). | Long-form | 2026-10-22 | done 2026-10-20 | user via Proxy |
 
 ## Personal
 
