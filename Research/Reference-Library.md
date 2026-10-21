@@ -70,7 +70,7 @@ Evidence for How to Fish and Where Winds Meet comes from one third-party page (T
 
 | Round | Paths | Rows | Rating status | Reference approval |
 |---|---|---|---|---|
-| OI-028 | ratings/OI-028/ROUND-OI-028.csv, .md; RESEARCH-OI-028-final.md | 12 | awaiting user ratings | none approved |
+| OI-028 | ratings/OI-028/ROUND-OI-028.csv, .md; RESEARCH-OI-028-final.md | 12 | rated by the user 2026-10-20 8:15 PM ET (10 love it, 1 meh, 1 not me) | none approved |
 | OI-038 | ratings/OI-038/ROUND-OI-038.csv, .md; NOTES.md | 50 (46 YT, 4 TikTok) | awaiting user ratings | none approved |
 
 The two rounds share 10 clips (the Rocket League rows).
