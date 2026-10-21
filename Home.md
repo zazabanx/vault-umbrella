@@ -21,6 +21,7 @@ Follow [[new-product]]. Then add one line to the list above. Move a lesson into 
 - [[Bots/Proxy]]: main chat and router.
 - [[Bots/Long-form-YouTube]]: Elden Ring episodes from VODs.
 - [[Bots/Personal]]: flights, purchases, bookings.
+- [[Bots/Clip-Renders-Review]]: draft renders, ALT versions, review checklists, and add-only copies.
 
 ## What does not live here
 
