@@ -99,7 +99,7 @@ Clips in PC `Videos\Postable_Needs_Work` are postable but need work (normal fold
 
 | ID | Item | Owner | Due | State | Source |
 |---|---|---|---|---|---|
-| LF-001 | PR #70 merge (https://github.com/zazabanx/auto-clip-system/pull/70, head f23c62b; Claude approved) | Long-form | 2026-10-21 | open: waiting on PC run_tests_pc.ps1 SUMMARY | user via Proxy, Oct 20 6:19 PM |
+| LF-001 | PR #70 merge (https://github.com/zazabanx/auto-clip-system/pull/70, head f23c62b; Claude approved). Done: merged into main at 11:51 PM ET on Oct 20, 2026 (head f23c62b, merge commit a9aa562). #89 (25136d8), #90 (ae8277e) and #91 (2edda0e) were updated onto main and are awaiting PC tests. | Long-form | 2026-10-21 | done 2026-10-20 | user via Proxy, Oct 20 6:19 PM |
 | LF-002 | PR2 break-report changes (plan approved) | Long-form | 2026-10-21 | open: code starts when #70 merges | user via Proxy, Oct 20 |
 | LF-003 | PR3 review/apply changes (plan approved) | Long-form | 2026-10-21 | open: code starts when #70 merges | user via Proxy, Oct 20 |
 | LF-004 | Person-detection PR for Oct 15 (plan approved) | Long-form | 2026-10-22 | open: code starts when #70 merges | user via Proxy, Oct 20 6:19 PM |
