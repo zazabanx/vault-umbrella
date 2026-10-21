@@ -10,7 +10,7 @@ Columns stay `ID | Item | Owner | Due | State | Source`. No Bot column. The sect
 
 States are `open`, `waiting on user since YYYY-MM-DD`, or `done YYYY-MM-DD`. Due `—` means no date. A done item moves to Done and is pruned 14 days after the done date. An item that misses its due date twice is marked `flagged` in State. The nightly vault note and Sunday dreaming keep this file current.
 
-A bot edits the rows it owns, including inherited `OI-` ids, and appends only its own prefix. Prefixes: `OI-` Auto-clip, `CR-` Renders & Review, `RS-` Research, `LF-` Long-form, `PE-` Personal, `PX-` Proxy. Not one shared counter. `RR-` is a rating-round file id, not an open-item prefix. Next OI is OI-057. Do not fill gaps. CR rows are CR-001 to CR-004. Next CR is CR-005. Future Research rows start at `RS-001`. Next Personal id is `PE-001`.
+A bot edits the rows it owns, including inherited `OI-` ids, and appends only its own prefix. Prefixes: `OI-` Auto-clip, `CR-` Renders & Review, `RS-` Research, `LF-` Long-form, `PE-` Personal, `PX-` Proxy. Not one shared counter. `RR-` is a rating-round file id, not an open-item prefix. Next OI is OI-058. Do not fill gaps. CR rows are CR-001 to CR-004. Next CR is CR-005. Future Research rows start at `RS-001`. Next Personal id is `PE-001`.
 
 On 2026-11-01 mark OI-015 done; PX-001 stays open.
 
@@ -72,6 +72,7 @@ Clips in PC `Videos\Postable_Needs_Work` are postable but need work (normal fold
 | OI-053 | One writer per vault file: one owner line per file; others only suggest. | Engineer | — | open (adopted 2026-10-21) | user via Proxy, 2026-10-21 10:22 AM ET (OPUS-RESEARCH-REVIEW-2026-10-21) |
 | OI-054 | After-Oct-30 queue, in order: Rocket League stats feed (first check it emits events in online play); Twitch clips and markers; Sonnet plus an Opus advisor; Gemini video pass, only if wordless plays are the gap (separate from OI-025); audience grades once posting starts; race Twitch Auto Clips. The OI-055 marker goes first if it misses Track 1 v3. | Engineer | after 2026-10-30 | open | user via Proxy, 2026-10-21 10:22 AM ET (OPUS-RESEARCH-REVIEW-2026-10-21) |
 | OI-055 | Added ideas: a version stamp (commit, prompt version, model, ranker score) on every draft and rating; an autoupdate rollback pin (pin a last-good commit, no pulls while set); the user's own 'clip that' or Twitch marker as the ranker's strongest input (in Track 1 v3, OI-046, if it fits, else first after Oct 30). | Engineer | — | open | user via Proxy, 2026-10-21 10:22 AM ET (OPUS-RESEARCH-REVIEW-2026-10-21) |
+| OI-057 | Mac-only test failures that also fail on main: longform/test_breaks (ffmpeg_measure, lock_line_names_breaks, measure_without_grid_bins, rounded_length) and a GapTooSmall error in test_facecam_person; they pass on the PC and the box, so likely the Mac environment. Also the PC flake detector/test_auto_start test_held_lock_writes_retry_json_and_leaves_state (WinError 32 on watcher.lock) failed 2 of 3 runs on #96. | Engineer | — | open | Long-form, 2026-10-21 (found during auto-clip #96) |
 
 ### Done
 
@@ -128,7 +129,7 @@ Clips in PC `Videos\Postable_Needs_Work` are postable but need work (normal fold
 | LF-012 | YouTube upload prep (finals plus titles/descriptions for review) | Long-form | 2026-10-26 | open: needs editor plus the user's break ticks; nothing posted without the user's explicit OK | standing rule |
 | LF-013 | DaVinci smoke test on the PC. Done: passed 2026-10-20 8:24 PM ET (mkv shows 4 audio tracks; fcpxml timeline imported with 2 clips and 4 audio tracks). | Long-form | 2026-10-22 | done 2026-10-20 | user via Proxy |
 | LF-014 | Thumbnail partial fix: name image2 for `.jpg.partial` thumbnails (https://github.com/zazabanx/auto-clip-system/pull/93). Done: merged into main by Long-form on the user's OK, 10:00 AM ET Oct 21, 2026 (merge commit 9d73ce1). | Long-form | — | done 2026-10-21 | user via Proxy, 2026-10-21 |
-| LF-015 | One-defect PR: drop the 8 s single-frame break items from the break report | Long-form | — | open: approved 2026-10-21 | user via Proxy, 2026-10-21 |
+| LF-015 | One-defect PR: drop the 8 s single-frame break items from the break report. Done: auto-clip #96 (head 3012f1b) merged Oct 21, 2026 (merge commit 6de9ca5); the Oct 15 breaks re-run is in progress on the Mac. | Long-form | — | done 2026-10-21 | user via Proxy, 2026-10-21 |
 
 ## Personal
 
