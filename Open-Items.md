@@ -82,8 +82,13 @@ Clips in PC `Videos\Ready_To_Post` feed the Publishing bot (PX-005). Renders & R
 
 | ID | Item | Owner | Due | State | Source |
 |---|---|---|---|---|---|
-| OI-028 | Reference-creator viral-clip analysis (the creators list in the reference library) | Research | 2026-10-27 | open | approved by the user 2026-10-20 via the Proxy's weekend audit (dropped from Oct 16) |
-| OI-038 | Shorts rating round for other games and streamers. Same format as OI-028: top shorts/TikToks/Reels for Elden Ring and the user's other streamed games, plus the reference-library streamers (xQc, Asmongold, Kai Cenat, caseoh, shroud and the rest), for the user to rate love it / meh / not me. | Research | — (queued right after the transcript scout, OI-035; research may run in parallel) | open | user 2026-10-20 7:20 PM via the Proxy |
+| OI-028 | Reference-creator viral-clip analysis (the creators list in the reference library). Done: analysis 2026-10-20 (62 Shorts, 19 creators); RL round rated by the user 2026-10-20 8:15 PM ET (10 love it, 1 meh, 1 not me). Ratings only, no clip reference-approved; using them stays OI-027 (Engineer). Files: Research store ratings/OI-028/. | Research | 2026-10-27 | done 2026-10-20 | approved by the user 2026-10-20 via the Proxy's weekend audit (dropped from Oct 16) |
+| OI-038 | Shorts rating round for other games and streamers. Same format as OI-028: top shorts/TikToks/Reels for Elden Ring and the user's other streamed games, plus the reference-library streamers (xQc, Asmongold, Kai Cenat, caseoh, shroud and the rest), for the user to rate love it / meh / not me. Round built 2026-10-20: 50 rows, all links checked live (7 Elden Ring, 5 How to Fish, 3 Where Winds Meet, 35 reference streamers; 46 YouTube Shorts and 4 TikToks), sent to the Proxy for the user to rate. | Research | — (queued right after the transcript scout, OI-035; research may run in parallel) | waiting on user since 2026-10-20 | user 2026-10-20 7:20 PM via the Proxy |
+
+### Done
+
+| ID | Item | Owner | Due | State | Source |
+|---|---|---|---|---|---|
 
 ## Long-form YouTube
 

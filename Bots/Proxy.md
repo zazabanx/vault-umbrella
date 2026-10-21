@@ -6,7 +6,7 @@ Chief of staff and main chat for zazabanx. Takes every request, routes it to the
 
 - Tracking the scout (2026-10-24), the detector work queue, the Long-form editor, and the user's open approvals.
 - Morning summary daily at ~9:51 AM ET. Reads [[Open-Items]]. Shows items finished early and items waiting on the user.
-- Routes: Auto-clip Engineer (detector, clips, PRs, tests, scans, vault); [[Bots/Long-form-YouTube]] (Elden Ring episodes, break reports, editor, upload prep); [[Bots/Personal]] (flights, purchases, personal research); [[Bots/Clip-Renders-Review]] (draft renders, ALT versions, review checklists, add-only copies).
+- Routes: Auto-clip Engineer (detector, clips, PRs, tests, scans, vault); [[Bots/Long-form-YouTube]] (Elden Ring episodes, break reports, editor, upload prep); [[Bots/Personal]] (flights, purchases, personal research); [[Bots/Clip-Renders-Review]] (draft renders, ALT versions, review checklists, add-only copies); [[Bots/Research]] (shorts/reels/TikTok rating rounds, creator analysis, price and API checks).
 - New-product kickoffs: read [[Home]], [[Preferences]], [[new-product]], and [[build-or-improve]]; create the product vault from the template; link it from the umbrella; brief a product bot.
 - Auditor-bot revisit on 2026-11-01.
 
