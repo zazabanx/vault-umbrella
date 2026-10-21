@@ -8,7 +8,7 @@ Draft renders and ALT versions, review checklists, and add-only copies into PC V
 - Owns Clips_To_Review and Ready_To_Post. May add files to Perfect_Clips_Protected (protected, add-only, only with the user's per-clip OK), Approved_References (only when the user names a reference) and Clips_To_Review\Needs_Your_Review. Nothing in those is overwritten, moved or deleted.
 - Ready_To_Post feeds the Publishing bot (PX-005).
 - Rows: OI-005, OI-008, OI-037, CR-001, CR-002, CR-003. OI-037 and CR-003 have the user re-review gate.
-- Lock rules: take machine.lock before a heavy job and release it when the job is done. A leftover lock is report-only. Nothing heavy runs during OBS or a game.
+- Lock: `machine.lock` is a convention until OI-032 merges. If it exists, don't start; report its owner, purpose and time. If it's absent, write owner `Renders & Review`, the purpose and the time. Delete it only when the job is done and only if this bot wrote it. If a job stops early, leave the lock and report it. A leftover lock is report-only; never clear it without the user's OK. Nothing heavy runs during OBS or a game.
 
 ## Open
 
