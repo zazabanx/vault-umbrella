@@ -38,7 +38,7 @@ Clips in PC `Videos\Postable_Needs_Work` are postable but need work (normal fold
 | OI-009 | Review the drafts in Clips_To_Review\Needs_Your_Review (15 Oct 9 drafts now; Oct 15 drafts are added after the batch) using REVIEW_CHECKLIST.txt | user | 2026-10-24 (suggested) (U) | waiting on user since 2026-10-20 | auto-clip-system vault/Daily/2026-10-20.md |
 | OI-011 | Archive plan for VODs not yet on the G-DRIVE (old .mov files, and confirm whether the Oct 11 Twitch download exists) | Engineer | 2026-10-22 | open | Engineer, 2026-10-20 (Mac disk review) |
 | OI-012 | Issue #48 and the #49 follow-ups | Engineer | 2026-10-26 | open | auto-clip-system vault/Daily/2026-10-16.md |
-| OI-013 | Project pack (Resolve stems) | user | — | waiting on user since 2026-10-16 (paused after Claude's REVISE) | auto-clip-system vault/Daily/2026-10-16.md |
+| OI-013 | Parked: project pack (Resolve stems), paused after Claude's REVISE; the user picks a later date | user | — | open (parked by the user 2026-10-21 10:44 AM ET) | auto-clip-system vault/Daily/2026-10-16.md |
 | OI-014 | First independent Claude audit in Sunday dreaming | Engineer | 2026-10-25 | open | auto-clip-system vault/Decisions.md |
 | OI-017 | Fix Oct 14 clips 07 and 10 (still not perfect after #38) | Engineer | 2026-10-25 (U) | open | auto-clip-system vault/Status.md |
 | OI-018 | P3 trigger vs mic-loudness report (read-only, Mac) | Engineer | 2026-10-21 | open | user via Proxy, 2026-10-20 |
