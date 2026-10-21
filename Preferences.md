@@ -13,7 +13,7 @@ How the user works, and what needs a yes. Product status does not go here. Add a
 
 ## Models and tools
 
-- Pick the model per task. Do not drop to a weaker model when the work needs a stronger one. (2026-10-08) Claude runs at max effort by default on the Max plan; tell the Proxy when the session or weekly meter passes 85% so the user can decide on lowering effort. This replaces the 2026-10-08 "ask before a choice that might overrun plan limits" (2026-10-21 10:31 AM ET).
+- Pick the model per task. Do not drop to a weaker model when the work needs a stronger one. (2026-10-08) On the Max plan, Claude runs Opus 5.5 (claude-opus-5-5) at xhigh effort by default for every Claude use; max only with the user's OK each time; flag the user (via the Proxy) when the session or weekly usage passes 85% (2026-10-21 11:15 AM ET, replaces "max effort by default"). This replaces the 2026-10-08 "ask before a choice that might overrun plan limits" (2026-10-21 10:31 AM ET).
 - AutoClip's default reviewer is Opus. That stays in the AutoClip vault. Do not copy it here as a rule for every product.
 - The next small product uses Claude Code. AutoClip stays on Cursor. Do not start that switch from a template. (2026-10-14, recorded 2026-10-16)
 
