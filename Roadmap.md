@@ -8,7 +8,7 @@ Stamp: Grok Bot executor, 2026-10-22 ~10:30 PM ET. Sources: `CLAUDE-QUEUE-AND-PH
 
 Track 1 plan: [[Gameplans/2026-10-21-PLAN-TRACK1-v3]] (approved by the user 2026-10-21 12:12 PM ET). For CP1 and CP2 it replaces the Oct 20 marks in HISTORY. It sets no new CP3 or CP4 marks, so the Oct 20 ones in HISTORY are the latest written.
 
-**Done.** At least 1 postable clip per stream, or an honest "nothing strong tonight" that the user confirms in a 2-minute look at the top cards (a missed moment = FAIL). 6–7 per week tracked separately. Stop rule: if done isn't met by Dec 4, the 2-minute phone pick becomes the product. (PLAN-TRACK1-v3)
+**Done (Track 1).** At least 1 postable clip per stream, or an honest "nothing strong tonight" that the user confirms in a 2-minute look at the top cards (a missed moment = FAIL). 6–7 per week tracked separately. Stop rule: if done isn't met by Dec 4, the 2-minute phone pick becomes the product. (PLAN-TRACK1-v3)
 
 | Checkpoint | Marks (PLAN-TRACK1-v3) | State |
 |---|---|---|
@@ -39,7 +39,7 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 | Y | Streams in a row | 4. A miss restarts the count. |
 | Z | Review time | 10 minutes or less per stream (at most 5 drafts). |
 | H | Hands-off | Drafts plus a "clips ready" message by 10 AM after a stream. 0 manual steps. 0 heavy jobs while OBS, a game or Resolve runs. |
-| C | Cost | $1 or less per stream, inside the $10 per month cap, every paid call counted. |
+| C | Cost | $1 or less per stream, inside the $10 per month cap (now $20 per month total, PLAN-TRACK1-v3), every paid call counted. |
 
 **Checkpoints (all ET).**
 

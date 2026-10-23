@@ -26,4 +26,4 @@ Follow [[new-product]]. Then add one line to the list above. Move a lesson into 
 
 ## What does not live here
 
-Pipeline, clips, locks, scores, and posting results stay in the product vault.
+Pipeline, clips, locks, scores, and posting results stay in the product vault. Exception: the goal, checkpoints and Claude's plans live in [[Roadmap]].
