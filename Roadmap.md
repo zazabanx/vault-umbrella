@@ -90,8 +90,9 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 
 ## Gameplans index (newest first)
 
-- 2026-10-22 — [[Gameplans/2026-10-22-REVIEW-POST-CP2-v1-r1]] (Opus r1 review of the post-CP2 plan v1: APPROVE WITH CHANGES; awaiting the user's decisions).
-- 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v1]] (post-CP2 plan v1; awaiting the user's decisions).
+- 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v2]] (post-CP2 plan v2: current, awaiting the user's decisions A-E).
+- 2026-10-22 — [[Gameplans/2026-10-22-REVIEW-POST-CP2-v1-r1]] (Opus r1 review of the post-CP2 plan v1: APPROVE WITH CHANGES; history, superseded by v2).
+- 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v1]] (post-CP2 plan v1; history, superseded by v2).
 - 2026-10-22 — [[Gameplans/2026-10-22-CP2-PREROLL-FINDING]]: CP2 pre-roll finding (read-only).
 - 2026-10-22 — [[Gameplans/2026-10-22-PR-PLAN-RENDER-NO-IDLE-v3]]: render no-idle plan v3 (build waits for the user's OK).
 - 2026-10-22 — [[Gameplans/2026-10-22-GAMEPLAN]]: nightly gameplan (Claude, 3:23 AM ET).
