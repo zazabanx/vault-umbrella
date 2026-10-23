@@ -25,7 +25,7 @@ Track 1 plan: [[Gameplans/2026-10-21-PLAN-TRACK1-v3]] (approved by the user 2026
 - User ruling 10:09 PM ET: Oct 15 R3 "I'VE BEEN PUNISHED FOR MY SINS" verdict "yes" = needs work. CP2 PASS stands.
 - Follow-up finding: [[Gameplans/2026-10-22-CP2-PREROLL-FINDING]] (2 Oct 15 drafts start after a stronger moment 12–17 s earlier; fed into the post-CP2 plan).
 
-**Next.** The post-CP2 plan is [[Gameplans/2026-10-22-PLAN-POST-CP2-v2]] (current). The user approved decisions A-E at 11:36 PM ET Oct 22 as recommended: A freeze lifted (dreaming log-only), B triggers (with the rage-collection refinement in the product vault's Decisions.md), C CP3/CP4 marks above, D caps PC $20 / Mac $10, E the renewal plan. The render no-idle plan [[Gameplans/2026-10-22-PR-PLAN-RENDER-NO-IDLE-v3]] waits for the user's OK.
+**Next.** The post-CP2 plan is [[Gameplans/2026-10-22-PLAN-POST-CP2-v2]] (current). The user approved decisions A-E at 11:36 PM ET Oct 22 as recommended: A freeze lifted (dreaming log-only), B triggers (with the rage-collection refinement in the product vault's Decisions.md), C CP3/CP4 marks above, D caps PC $20 / Mac $10, E the renewal plan. The render no-idle plan [[Gameplans/2026-10-22-PR-PLAN-RENDER-NO-IDLE-v3]] is unblocked by A-E; its PRs need the Proxy + Claude OK (v2 queue items 9 and 18).
 
 ## HISTORY: Claude's Oct 20 roadmap (original marks)
 
@@ -94,7 +94,7 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 - 2026-10-22 — [[Gameplans/2026-10-22-REVIEW-POST-CP2-v1-r1]] (Opus r1 review of the post-CP2 plan v1: APPROVE WITH CHANGES; history, superseded by v2).
 - 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v1]] (post-CP2 plan v1; history, superseded by v2).
 - 2026-10-22 — [[Gameplans/2026-10-22-CP2-PREROLL-FINDING]]: CP2 pre-roll finding (read-only).
-- 2026-10-22 — [[Gameplans/2026-10-22-PR-PLAN-RENDER-NO-IDLE-v3]]: render no-idle plan v3 (build waits for the user's OK).
+- 2026-10-22 — [[Gameplans/2026-10-22-PR-PLAN-RENDER-NO-IDLE-v3]]: render no-idle plan v3 (unblocked by A-E on Oct 22; Proxy + Claude OK per PR).
 - 2026-10-22 — [[Gameplans/2026-10-22-GAMEPLAN]]: nightly gameplan (Claude, 3:23 AM ET).
 - 2026-10-22 — [[Gameplans/2026-10-22-GAMEPLAN-PROXY-DRAFT]]: Proxy draft of the same gameplan, not Claude-reviewed.
 - 2026-10-21 — [[Gameplans/2026-10-21-PLAN-TRACK1-v3]]: Track 1 plan v3, approved.
