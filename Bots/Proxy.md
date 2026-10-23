@@ -4,7 +4,7 @@ Chief of staff and main chat for zazabanx. Takes every request, routes it to the
 
 ## Now
 
-- Tracking the auto-clip queue, the render no-idle plan review (PR-PLAN-RENDER-NO-IDLE-v1, with Opus on Max), the chat-logging build, the trigger/rage PR, and PLAN-CLAUDE-ONLY-SETUP-v1. A Claude-only switch happens only if Proxy and Claude are both confident it is seamless (CLAUDE-ONLY-USER-CONCERNS-2026-10-23).
+- Tracking the auto-clip queue toward CP3 (fresh streams from Oct 27): the late-start fixes (PR 2 #155), no-idle PRs 1-2 (#145, #146), item 29, and the chat load test's OBS half. The Claude-only setup stays parked and Grok stays through CP4 (the user, 7:40 AM ET Oct 23); a switch happens only if Proxy and Claude are both confident it is seamless (CLAUDE-ONLY-USER-CONCERNS-2026-10-23).
 - Outside dates: Oct 28 claim the Max API credit; Grok Pro+ renews 2026-11-12; Claude Max ends 2026-11-21. CP3 on fresh streams from Oct 27. Auditor-bot revisit 2026-11-01. Weekly team dreaming Sundays 11 AM ET (first run 2026-10-25).
 - Morning summary daily at ~9:51 AM ET. Reads [[Open-Items]]. Shows items finished early and items waiting on the user. Since 2026-10-23 the nightly routine writes daily notes for both vaults.
 - Routes: Auto-clip Engineer (detector, clips, PRs, tests, scans, vault); [[Bots/Long-form-YouTube]] (Elden Ring episodes, break reports, editor, upload prep); [[Bots/Personal]] (flights, purchases, personal research); [[Bots/Clip-Renders-Review]] (draft renders, ALT versions, review checklists, add-only copies); [[Bots/Research]] (shorts/reels/TikTok rating rounds, creator analysis, price and API checks).
@@ -16,6 +16,7 @@ Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 
+- 2026-10-23 — 11:45 AM ET: Mac capture proven (#151, Twitch HTTPS via certifi): the test recording got detect and transcript files. M3 found no winner, so the ranker is frozen as is. CP3 top picks from Oct 27+ streams may render before OI-036 (decision C, 7:40 AM); old re-scans and Oct 21-26 scans stay held.
 - 2026-10-23 — Nightly routine writes daily notes for both vaults. Posted clips stay full 1080p (720p only as review skim copies).
 - 2026-10-23 — 12:20 AM ET: Claude-only stays an open question. The user switches only if Proxy and Claude are both confident it is seamless. Concerns note: CLAUDE-ONLY-USER-CONCERNS-2026-10-23 ([[Gameplans/2026-10-23-CLAUDE-ONLY-USER-CONCERNS]]). Engineer is drafting PLAN-CLAUDE-ONLY-SETUP-v1 with Opus on Max.
 - 2026-10-23 — 12:16 AM ET: Trigger/rage plan approved. Always-clip + rage: WHAT ARE YOU DOING, WHERE ARE YOU, I suck I suck. Rage only: get out of the way (both versions). OH MY GOD is a demoted hint + rage. I'm the greatest / greatest of all time added as always-clip; bare "the greatest" is loudness-gated; "best ever" dropped. Non-rage trigger clips go to Trigger_Hits\<date>. Ranker keeps its own top 5; trigger moments are set aside raw, not auto-rendered.
