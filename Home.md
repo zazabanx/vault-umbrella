@@ -10,7 +10,7 @@ Two Obsidian vaults. This repo is one. Each product repo is another. Switch with
 
 ## Products
 
-- **AutoClip.** Private repo `zazabanx/auto-clip-system`. Product home: `vault/AutoClip.md` in that repo. Cursor starts at `AGENTS.md` there. The build loop in that file is stamp `build-loop v2`.
+- **AutoClip.** Private repo `zazabanx/auto-clip-system`. Product home: `vault/AutoClip.md` in that repo. Cursor starts at `AGENTS.md` there. The build loop in that file is stamp `build-loop v2`. Goal, checkpoints and Claude's saved plans: [[Roadmap]] (plans in `Gameplans/`).
 
 ## Add a product
 
@@ -26,4 +26,4 @@ Follow [[new-product]]. Then add one line to the list above. Move a lesson into 
 
 ## What does not live here
 
-Pipeline, clips, locks, scores, and posting results stay in the product vault.
+Pipeline, clips, locks, scores, and posting results stay in the product vault. Exception: the goal, checkpoints and Claude's plans live in [[Roadmap]].
