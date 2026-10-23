@@ -16,7 +16,7 @@ Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 
-- 2026-10-23 — 11:45 AM ET: Mac capture proven (#151, Twitch HTTPS via certifi): the test recording got detect and transcript files. M3 found no winner, so the ranker is frozen as is. CP3 top picks from Oct 27+ streams may render before OI-036 (decision C, 7:40 AM); old re-scans and Oct 21-26 scans stay held.
+- 2026-10-23 — 11:36 AM ET: Mac capture proven (#151, Twitch HTTPS via certifi): the test recording got detect and transcript files. M3 found no winner, so the ranker is frozen as is. CP3 top picks from Oct 27+ streams may render before OI-036 (decision C, 7:40 AM); old re-scans and Oct 21-26 scans stay held.
 - 2026-10-23 — Nightly routine writes daily notes for both vaults. Posted clips stay full 1080p (720p only as review skim copies).
 - 2026-10-23 — 12:20 AM ET: Claude-only stays an open question. The user switches only if Proxy and Claude are both confident it is seamless. Concerns note: CLAUDE-ONLY-USER-CONCERNS-2026-10-23 ([[Gameplans/2026-10-23-CLAUDE-ONLY-USER-CONCERNS]]). Engineer is drafting PLAN-CLAUDE-ONLY-SETUP-v1 with Opus on Max.
 - 2026-10-23 — 12:16 AM ET: Trigger/rage plan approved. Always-clip + rage: WHAT ARE YOU DOING, WHERE ARE YOU, I suck I suck. Rage only: get out of the way (both versions). OH MY GOD is a demoted hint + rage. I'm the greatest / greatest of all time added as always-clip; bare "the greatest" is loudness-gated; "best ever" dropped. Non-rage trigger clips go to Trigger_Hits\<date>. Ranker keeps its own top 5; trigger moments are set aside raw, not auto-rendered.
