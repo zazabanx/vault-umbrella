@@ -90,6 +90,7 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 
 ## Gameplans index (newest first)
 
+- 2026-10-23 — [[Gameplans/2026-10-23-CLAUDE-ONLY-USER-CONCERNS]]: the user's concerns, habits and must-haves for a Claude-only switch (Proxy, 12:20 AM ET; read before designing any Claude-only setup).
 - 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v2]] (post-CP2 plan v2: current; refreshed ~11:40 PM ET with PR 1a anchor and item 22a; decisions A-E approved by the user 11:36 PM ET).
 - 2026-10-22 — [[Gameplans/2026-10-22-REVIEW-POST-CP2-v1-r1]] (Opus r1 review of the post-CP2 plan v1: APPROVE WITH CHANGES; history, superseded by v2).
 - 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v1]] (post-CP2 plan v1; history, superseded by v2).
