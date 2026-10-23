@@ -1,4 +1,5 @@
 > Copy of `CP2-PREROLL-FINDING-2026-10-22.md` (box handoffs), added 2026-10-22. Read-only CP2 analysis. See [[Roadmap]]. Text below is unchanged.
+> Note: a slur quoted from stream audio is masked in this copy.
 
 # CP2 pre-roll finding: "moment right before" drafts (2026-10-22)
 
@@ -96,7 +97,7 @@ Detector context for both streams: Oct 15 `spike_threshold_db` is 8.22 and the s
 | 10-09 THAT WAS THE RUN, DUDE (R3) | 1:41:36.4 | (-19.8) "i got two pots left yeah we're going nice"; (-9.4) "good good good"; (-2.5) "Oh no fire. Oh, I just used"; the payoff "that was the run" at +3 is already in the draft | about -9 s | about -20 s | video_burst at -19.9 s; audio_spike at +3.6 s (+14.0 dB) |
 | 10-14 THE ROBOT'S RECOIL... (R1 old) | 1:31:41.3 | (-75.4) "what the fuck"; (-66.0) "That poor guy dude!"; (-44.1) "Yo! That is fucking... hilarious ..."; (-31.8) "...oh man that's good bro this is a clip bro this is a clip"; the draft opens on the follow-up "Why is he on the ground like that" | about -44 s | about -75 s | audio_spike at -35.8 s; video_bursts at -60, -37, -34 s |
 | 10-14 WHY DID BRO FALL OVER? (R1 thin) | 1:31:15.5 | (-49.6) "what the fuck"; (-40.2) "That poor guy dude!"; (-18.3) "Yo! That is fucking... hilarious"; (-5.9) "this is a clip bro" | about -18 s | about -50 s | audio_spikes at -38.0 and -10.0 s |
-| 10-14 HIS TAG SAYS DAD... (R4) | 2:31:20.0 | (-24.9) "Actually a retard for a teammate, bro." (-23.0, repeated); then silence until the draft | about -25 s | about -25 s | audio_spike at -25.0 s, +15.8 dB (strength 0.91). **This setup is before the pick window** (the pick starts at 2:31:10) |
+| 10-14 HIS TAG SAYS DAD... (R4) | 2:31:20.0 | (-24.9) "Actually a r***** for a teammate, bro." (-23.0, repeated); then silence until the draft | about -25 s | about -25 s | audio_spike at -25.0 s, +15.8 dB (strength 0.91). **This setup is before the pick window** (the pick starts at 2:31:10) |
 | 10-15 I'VE BEEN PUNISHED FOR MY SINS (R3) | 6:29:07.0 | (-19.5) "Oh, dude." (-16.6) "Dude." (-14.1) "Look at that."; the user says "too late by 8 seconds" | -8 s (the user's number) | about -14 s | grid +10.6 and +11.4 dB at -22 and -17 s |
 
 ## 4. Start-window / pre-roll finding for the post-CP2 plan
