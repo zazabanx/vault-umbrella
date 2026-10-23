@@ -2,7 +2,7 @@
 
 Start here for every product. Grok Bot and Claude read this note first, then [[Preferences]], then that product's master note. Cursor agents start at that product's `AGENTS.md`. They do not need this repo to build.
 
-Owners and due dates: [[Open-Items]]. Goal, checkpoints and every saved plan: [[Roadmap]].
+Owners and due dates: [[Open-Items]].
 
 ## How to open
 
@@ -10,7 +10,7 @@ Two Obsidian vaults. This repo is one. Each product repo is another. Switch with
 
 ## Products
 
-- **AutoClip.** Private repo `zazabanx/auto-clip-system`. Product home: `vault/AutoClip.md` in that repo. Cursor starts at `AGENTS.md` there. The build loop in that file is stamp `build-loop v2`.
+- **AutoClip.** Private repo `zazabanx/auto-clip-system`. Product home: `vault/AutoClip.md` in that repo. Cursor starts at `AGENTS.md` there. The build loop in that file is stamp `build-loop v2`. Goal, checkpoints and Claude's saved plans: [[Roadmap]] (plans in `Gameplans/`).
 
 ## Add a product
 
