@@ -2,7 +2,7 @@
 
 Start here for every product. Grok Bot and Claude read this note first, then [[Preferences]], then that product's master note. Cursor agents start at that product's `AGENTS.md`. They do not need this repo to build.
 
-Owners and due dates: [[Open-Items]].
+Owners and due dates: [[Open-Items]]. Goal, checkpoints and every saved plan: [[Roadmap]].
 
 ## How to open
 
