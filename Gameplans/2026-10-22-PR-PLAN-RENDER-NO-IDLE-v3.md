@@ -1,4 +1,4 @@
-> Copy of `PR-PLAN-RENDER-NO-IDLE-v3.md` (box handoffs), added 2026-10-22. Plan only; build waits for the user's OK. See [[Roadmap]]. Text below is unchanged.
+> Copy of `PR-PLAN-RENDER-NO-IDLE-v3.md` (box handoffs), added 2026-10-22. Plan only; build unblocked by the user's A-E approval (Oct 22, 11:36 PM ET); each PR needs the Proxy + Claude OK. See [[Roadmap]]. Text below is unchanged.
 
 # PR plan v3: render with no idle gaps and no silent 0/6
 

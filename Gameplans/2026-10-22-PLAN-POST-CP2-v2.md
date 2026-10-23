@@ -1,4 +1,4 @@
-> Copy of `PLAN-POST-CP2-v2.md` (box handoffs), added 2026-10-22. See [[Roadmap]]. Text below is unchanged.
+> Copy of `PLAN-POST-CP2-v2.md` (box handoffs), added 2026-10-22, refreshed ~11:40 PM ET with the PR 1a must-include anchor (item 10a) and item 22a. See [[Roadmap]]. Text below is unchanged.
 
 # Post-CP2 plan v2
 
@@ -25,11 +25,13 @@ Oct 22, 2026, ~11 PM ET. Docs only; base main `506bf8b`. This is v1 (`PLAN-POST-
 | Renewals | Keep both a month; Grok decided Nov 10 "unless CP4 passed" | One dated plan (decision E) |
 | "7 of 9 were picking misses" | Stated as fact | Unproven until M1 |
 | Addendum, §7, §11 | Separate | Folded in or replaced |
+| Editor must-include anchor (edit, Oct 22 ~11 PM ET) | none | New one-defect, plan-first PR 1a (item 10a), right after look-back PR 1, partner of the guard; gated on A-E like PR 1. Evidence: M1 (`CP2-MISS-CLASSIFY-AND-EDITOR-MODEL-2026-10-22.md`): Oct 14 'NO CUTS.' and 'MY TEAMMATE IS AFK' trimmed the window's loudest beat; 4 of 9 Moment=no were editor faults |
+| Editor model (same edit) | Confirm now by loading `.env` and printing `config.claude.model` | Not confirmed, by decision; `editor\.env` is not loaded. Behind the gate (item 22a): rename the draft stamp field to `ranker_model`, add `editor_model`, add per-call model logging to the ledger |
 
 ## What runs before the user answers
 **Nothing gated is built until the user answers A-E.** That includes no-idle PR 3a and the look-back guard. Only two read-only, $0 prep jobs run now:
 1. **M1:** classify the 7 unnoted misses (Mac + PC, read-only).
-2. **Editor-model confirm** (PC, read-only).
+2. ~~**Editor-model confirm** (PC, read-only).~~ Done as far as allowed: code default Sonnet, real model **unconfirmed by decision**; `editor\.env` is not loaded. Answered by item 22a after the gate.
 
 ## Summary
 - **CP2 is a bare pass on its official marks.** Each stream hit exactly 40% Moment=yes per ranked moment. No draft is ready to post: 11 discard, 7 needs work. The 3 blind pairs tied, and 2 of those pairs were both discards. The ranker finds some real moments. The pipeline doesn't yet make postable clips.
@@ -113,6 +115,12 @@ The user's steer: "if the detector can just find the right clips, the editing wi
 - **PR 1: look-back guard (thin path only), right after no-idle 3a.** If an audio spike or a wordless loud span falls within 20 s before the planned start, move the start to 2 s before it. At most 30 s back, never before the pick start. PC only, $0 on cached plans.
   - **Test bar: BALL at −14 s or earlier, and the locked clips stay green.**
   - What the guard can't do, per the preroll numbers: BRO lands about −12 (its offset is 18.3), TREE about −6 (12.3); RUN likely doesn't move (only a video burst precedes it); DAD can't go earlier than the pick start.
+- **PR 1a: editor must-include anchor (thin path), right after PR 1; partner of the look-back guard. One defect, plan first, gated on A-E like PR 1.**
+  - **Defect.** The editor can trim the pick's loudest beat "to stay near the target length". M1 found this on Oct 14 'NO CUTS.' (it skipped the 19.6 dB "get the fuck out of the way! What are you doing?!" at +48 s and kept the calm tail) and 'MY TEAMMATE IS AFK' (it skipped the 14.5 dB "dumbest touch… it's in my net" at +23 to +46 s, and flagged the omission itself). With the 2 late starts, **4 of the 9 Moment=no were editor faults**, not picking misses.
+  - **Change.** Pass the editor two anchors from the pick: the ranker reason's quoted line(s), matched to in-clip times, and the time of the top `audio_spike` inside the pick (from detect.json). A plan whose chosen variation excludes an anchor is invalid; the editor gets one corrective retry (the existing retry path), then falls back to a window built around the anchor. The target length gives way to the anchor, never the reverse. The 60 s cap stays.
+  - **Guard vs anchor.** The look-back guard fixes starts that land just after a peak; the anchor stops a plan from dropping the peak altogether (wrong-peak, cause (c)). Neither replaces PR 2.
+  - **Test bar.** Re-plan only, no render, on cached inputs where possible: 'NO CUTS.' and 'TEAMMATE AFK' must include their anchors; LEAVE THE BALL and TREE keep or improve PR 1's starts; locked clips stay green. Cost: re-plans only (about $0.10 per draft at the Oct 22 rate), within the PC cap.
+  - **Plan first:** a PR plan (one file) with the review cap, then the build, like PR 1.
 - **PR 2: full-VOD words for the editor** (root-cause fix). Fill loud gaps with the ranker's mlx-whisper words, which are timed only to ±1-2 s, so gap-fill only. Re-plans cost about $0.60 for the 7 drafts.
 - **Export front pad, ~15 s,** so DAD's setup (before the pick window) is reachable.
 - **7-draft bar, only after PR 2 plus the front pad.** Re-plan only, no render. Each start lands at or before its latest-start offset: 17.2, 12.3, 9.4, 44.1, 18.3, 24.9 and 8.0 s. ROBOT (old path, needs 44 s) stays out of reach. Locked clips stay green.
@@ -147,7 +155,7 @@ The user's steer: "if the detector can just find the right clips, the editing wi
 - **Target.** ≤$0.10 per draft; ≤$1 per stream for the auto set; ≤$2 per stream with triggers and picks (the CP4 mark, decision C). Rage clips and previews $0.
 - **Caps.** About 17 streams a month costs $17-34. October has about $1.10 of PC room left (decision D).
 - **Max credit.** About $100 a month of API credit from about Oct 28, once linked to the one org holding both keys.
-- **Editor model.** The code default is Sonnet (`editor/config.py:80, 196`). The "Opus" stamp is probably the ranker's: `render_picks.py:556-557` copies `pick.get("model")`, filled by the ranker (`export_picks.py:358`). **Confirm (prep, runs now):** load `.env` as render_picks does (`review_inbox.py:940-945`); print only `config.claude.model`, `trends_model`, and yes/no for whether `CLAUDE_MODEL` was set. Never print the key.
+- **Editor model.** The code default is Sonnet (`editor/config.py:80, 196`, `CLAUDE_MODEL`). The "Opus" stamp is the ranker's: `render_picks.py:556-557` copies `pick.get("model")`, filled by the ranker (`export_picks.py:358`). The ledger has no model field and no log names one; the spend ($0.089 per draft) fits Sonnet better but is not proof. **The editor model stays unconfirmed, by decision (Oct 22): `editor\.env` is not loaded or printed.** It gets answered by item 22a after the gate (stamp rename + `editor_model` + per-call model logging).
 - **Cost cuts, in order.** (1) Per-call usage log (`shared/llm_cost.py:588`). (2) Malformed-answer retry fix: 7 drafts retried (`content_generator.py:13990-13999`). (3) Cached trends 72-168 h instead of 24 h (`config.py:83, 199`; Proxy + Claude). (4) Leaner editor, blind-tested. (5) Environment preflight, which also stops the paid face-location fallback (`content_generator.py:13846-13875`).
 
 ## 7. Reliability
@@ -175,7 +183,7 @@ Format: item — machine · OK needed · runs after. v1 numbers in brackets. The
 
 **Runs now (read-only, $0)**
 1. M1: classify the 7 misses — Mac + PC · — · none [v1 3]
-2. Confirm the editor model — PC · — · none [v1 2]
+2. ~~Confirm the editor model~~ — closed unconfirmed by decision; no `.env` load; see 22a [v1 2]
 
 **Waits on the user's A-E answers**
 3. Turn off Grok auto-renew — the user · E · none [new]
@@ -186,7 +194,8 @@ Format: item — machine · OK needed · runs after. v1 numbers in brackets. The
 8. watcher.lock flake fix — box→PC · test-only · none [v1 7]
 9. No-idle v3 PR 3a — box→PC · Proxy + Claude · none [v1 8]
 10. Start fix PR 1, look-back guard — box→PC · Proxy + Claude · 9 [v1 11]
-11. Start fix PR 2, full-VOD words, plus the ~15 s export front pad — box→Mac+PC · Proxy + Claude · 10 [v1 14]
+10a. Editor must-include anchor PR 1a (ranker quote + top spike time in the pick), one defect, plan first — box→PC · Proxy + Claude · 10 [new]
+11. Start fix PR 2, full-VOD words, plus the ~15 s export front pad — box→Mac+PC · Proxy + Claude · 10, 10a [v1 14]
 12. M2: labeled set, eval tool, baseline — box→Mac · Proxy + Claude · none [v1 12]
 13. M3: offline signal tests, alongside the PC fixes — Mac · within the $5 cap · 12 [v1 19]
 14. OI-059 Mac prep and transcription wrapper — Mac · already approved · never during streams [v1 20]
@@ -194,12 +203,13 @@ Format: item — machine · OK needed · runs after. v1 numbers in brackets. The
 16. Live chat logging, before Oct 27 — Mac · A, Proxy + Claude · none [v1 26]
 17. Test-runner heartbeat and timeout — box→PC · test tooling · 9 [v1 9]
 18. No-idle v3 PRs 1→2→3→4, then the wrong-Python preflight — box→PC · Proxy + Claude · 9 [v1 13]
-19. Usage log, then an editor-model stamp — box→PC · Proxy + Claude · 2, 18 [v1 15]
+19. Usage log (spend per call) — box→PC · Proxy + Claude · 18 [v1 15]; the model stamp and model logging moved to 22a, behind the gate
 20. Malformed-answer retry fix — box→PC · Proxy + Claude · 18, 11 [v1 16]
 21. Cached-trends default — box · Proxy + Claude · 19 [v1 17]
 
 **Behind the gate (A = yes)**
 22. Post-pack docs PR — box · A · none [v1 10]. Point `vault/Jobs/post-pack.md:5` at the PC's `scorecards.csv`: rows with `outcome` ready or perfect, newest per clip by `written_at`, draft found by `file` + `stream_date`, read as utf-8-sig, flagged rows skipped; fix the ratings_writer text and review-batch step 2.
+22a. Draft-stamp and ledger model fields, one PR: rename the stamp's `model`/`prompt_version` to `ranker_model`/`ranker_prompt_version` (stamp, ratings writer, scorecards.csv; old rows read as-is), add `editor_model` (from `config.claude.model` and the reply's `response.model`), and log the model per call in the ledger (`shared/llm_cost.py`, e.g. `by_model`). Until this lands the editor model stays unconfirmed, by decision; `editor\.env` is not loaded — box→PC · A, Proxy + Claude · 19 [new]
 23. Merge a winning ranker change, frozen for CP3 — box→Mac · A · 13 [v1 22]
 24. New trigger kinds and ranker cues — box→Mac · A + B · 5, 14 [v1 23]
 25. Always-clip pin, separate from the top 3-5 — box→Mac+PC · A + B · 15, 24 [v1 24]
