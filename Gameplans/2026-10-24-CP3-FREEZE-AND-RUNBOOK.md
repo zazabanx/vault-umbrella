@@ -1,7 +1,7 @@
 # CP3 freeze list, night runbook and readiness preflight (docs only)
 Stamp: Auto-clip Engineer (box only), 2026-10-23 ~11:30 PM ET, main 698c04dcf2e325c7cee8a243cf43c8c0f60b7b6b. Source of the wording: GAMEPLAN-2026-10-23-NIGHT.md item 1 (the confirmed plan). Every code fact below was read from the repo at that SHA. The Proxy confirms the list and lands this as docs. Nothing here was run on the Mac or PC.
 
-**Umbrella copy, Oct 24 (Saturday gameplan task 4a):** the box file `CP3-FREEZE-AND-RUNBOOK.md` with three lines added, each marked "Added Oct 24". Nothing else was changed. Where the plan gives no repo fact I say "plan" or "not verified". **Updated 2026-10-24 ~12:50 AM ET with the Proxy's answers** (section 5 now records them; nothing is open there).
+**Umbrella copy, Oct 24 (Saturday gameplan task 4a):** the box file `CP3-FREEZE-AND-RUNBOOK.md` with three lines added, each marked "Added Oct 24". Where the plan gives no repo fact I say "plan" or "not verified". **Updated 2026-10-24 ~12:50 AM ET with the Proxy's answers** (section 5 now records them; nothing is open there).
 
 ## 1. Freeze list
 **Frozen from the first CP3 render until CP3 is scored** (plan item 1; PLAN-POST-CP2-v2 section 8: "Ranker and editor frozen during CP3"):
@@ -110,7 +110,7 @@ PC:
 - The OCR import check is `rapidocr` (the repo's package), not `rapidocr_onnxruntime`.
 Run on the real machines at main `39bfb717b8687a8e60ce753e0aff92fa9b19ffee`: Mac 0 FAIL, 0 WARN; PC 0 FAIL, 2 WARN (the duplicate cap lines, and the $0.38 smoke information line). Synthetic-home tests: 5,5,20 gives the WARN and cap $20; a real $5-only file FAILs `pc_month_room` ($4.21 + $1.00 = $5.21 > $5.00); 20 only is clean. Cleaning the duplicate lines to one is a user-owned `.env` edit and was not done.
 
-**Added Oct 24 (where the preflight lives):** once draft PR #170 merges (head `4f37d9c20f450dc4cee6f827e7dedd772e7d94fb`, PC PASS at that head), the preflight is `scripts/cp3_preflight.py` with `scripts/test_cp3_preflight.py`; run it as `python scripts/cp3_preflight.py --repo <repo folder> --expect-head <full sha>` from the repo's own Python. Until it merges, use the box copy `/workspace/handoffs/cp3_preflight.py` (v2).
+**Added Oct 24 (where the preflight lives):** once draft PR #170 merges (it merges only after its review and a PC run at the head that merges; see the PR), the preflight is `scripts/cp3_preflight.py` with `scripts/test_cp3_preflight.py`; run it as `python scripts/cp3_preflight.py --repo <repo folder> --expect-head <full sha>` from the repo's own Python. Until it merges, use the box copy `/workspace/handoffs/cp3_preflight.py` (check its docstring for the version; run it in the same shell that runs `render_picks`).
 
 **The script.** `/workspace/handoffs/cp3_preflight.py` is a **proposal, not a PR**. If the Proxy lands it, the natural place is `scripts/cp3_preflight.py`, with a small test. It uses only the standard library plus `shared.llm_cost`, reads only allowlisted keys from `detector/.env` / `editor/.env` (the spend caps, `LLM_SPEND_PATH`, `FEEDER_START_DATE`, `FEEDER_LEDGER`, `WATCHER_SCAN_FLOOR`, `CLAUDE_MODEL`) and prints numbers and names only. Box test with a synthetic home (`--role pc` and `--role mac`; re-run after the $0.08/WARN update, also at `--per-draft-usd 0.15` to see the FAIL and `tell_proxy` lines): it ran, the Mac lines that need launchctl, chat files or a real feeder failed or warned as expected there, and the plan call reservation came out at $0.300. It has not run on a real Mac or PC.
 
