@@ -14,7 +14,7 @@ Track 1 plan: [[Gameplans/2026-10-21-PLAN-TRACK1-v3]] (approved by the user 2026
 |---|---|---|
 | CP1 (was Oct 24–26) | Blind ranker vs detector top 5. PASS: ranker wins at least 2 of 3 streams, at most 1 known "no". Loses at least 2 of 3 = halt; a split means CP2 decides. | **SPLIT** (not halt), 2026-10-22 |
 | CP2 (moved by the user from Oct 30 to **Oct 22**) | Thin path top 3–5, 3 also on the old path, unlabeled, at most 10 per session. PASS: thin ≥ old; at least 40% of each stream's ranked moments rated Moment=yes; at most 15 minutes of review per stream. | **PASS (official)**, scored 10:10 PM ET Oct 22 |
-| CP3 (was Nov 6) | Fresh streams from Oct 27, before the OI-036 overview. Postable = ready or perfect. PASS: at least 1.5 postable per stream on average over at least 3 streams (decision C). | Back to back with CP4, as soon as ready (OI-046) |
+| CP3 (was Nov 6) | Fresh streams from Oct 26 (counted: Oct 26, 27, 28; the user moved the start from Oct 27 on 2026-10-24 11:03 AM ET), before the OI-036 overview. Postable = ready or perfect. PASS: at least 1.5 postable per stream on average over at least 3 streams (decision C). | Back to back with CP4, as soon as ready (OI-046) |
 | CP4 (was Nov 13) | Hands-off. Cost mark $2 per stream (decision C); other marks in [[Gameplans/2026-10-22-PLAN-POST-CP2-v2]] §8. | Back to back with CP3, as soon as ready (OI-046) |
 
 **CP2 result (official): PASS on all 3 marks.**
@@ -48,7 +48,7 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 | Wed Oct 21 | Freeze recorded, finished PRs merged | One Decisions line records Track 1 plus the pauses. #78, #83, #80, #61 merged with PC SUMMARY PASS. Open PRs 16 → 12 or fewer, paused ones labeled. |
 | Sat Oct 24 | CP1: ranker finds the good moments (replay, no renders) | On labeled Oct 9 and Oct 14 moments, at least 3 of each stream's top 5 are known-strong, at most 1 known "no". Spend $0.45 or less. User ticks the top 10 Oct 15 cards; at least 2 ticks in the ranker's top 5. |
 | Fri Oct 30 | CP2: rendered picks, rated | 9–15 new drafts from Oct 9, 14, 15 (new windows only), on the new timing path. At least 40% moment grade 4 or 5. At least 2 of 3 streams with 1+ postable. Review 15 minutes or less per stream. Editor spend per clip measured and under $0.20. |
-| Fri Nov 6 | CP3: fresh streams | Oct 27–29 and Nov 3–5 streams on the new path (one command if hands-off isn't ready; needs the user's OK to lift the scan hold). On at least 3 fresh streams: average 1.5+ postable, at least 1 each, 10 minutes or less of review. |
+| Fri Nov 6 | CP3: fresh streams | Oct 26–28 and Nov 3–5 streams on the new path (one command if hands-off isn't ready; needs the user's OK to lift the scan hold). On at least 3 fresh streams: average 1.5+ postable, at least 1 each, 10 minutes or less of review. |
 | Fri Nov 13 | CP4: hands-off works | Nov 10–12 streams have drafts plus an alert by 10 AM next day. 0 manual steps, 0 heavy jobs during OBS or games, $1 or less per stream in the ledger. |
 | Wed Nov 25 | DONE: 4 in a row | 4 consecutive streams meet X, Z, H and C. If the streak breaks, the next try ends Thu Dec 3. |
 | Fri Dec 4 | Hard rethink | If done isn't met, use the pivot. Don't add rules. |
@@ -58,7 +58,7 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 | Order | Phase | Done when |
 |---|---|---|
 | 1 | Ranking proven (Track 1), Oct 21–30 | CP1 and CP2 numbers. |
-| 2 | Fresh-stream quality, Oct 27–Nov 6 | CP3. |
+| 2 | Fresh-stream quality, Oct 26–Nov 6 | CP3. |
 | 3 | Hands-off wiring, after CP1, finished by Nov 13: Fix B, live hook, auto-render of the top 5, alert, lock owner and cleaner, runner takes the lock | CP4. |
 | 4 | The streak (product done), by Nov 25 | 4 in a row meeting X, Z, H, C. |
 | 5 | Posting starts, Publishing bot created | Trigger: 5+ clips in Ready_To_Post or the first long-form final. Done: the user approves the first post pack; nothing posts without the user's OK. |
@@ -91,7 +91,7 @@ From [[Gameplans/2026-10-20-CLAUDE-QUEUE-AND-PHASES-REVIEW]] (Claude, 2026-10-20
 ## Gameplans index (newest first)
 
 - 2026-10-24 — [[Gameplans/2026-10-24-GAMEPLAN-SAT]]: Claude's Saturday task set (Opus, plan mode, main `39bfb717`): land the preflight, one Sunday 7-9 PM merge batch, re-checks and docs; the Oct 27 merge hold.
-- 2026-10-24 — [[Gameplans/2026-10-24-CP3-FREEZE-AND-RUNBOOK]]: the CP3 freeze list, the Oct 27 night runbook and the readiness preflight spec (v2), with the Proxy's answers.
+- 2026-10-24 — [[Gameplans/2026-10-24-CP3-FREEZE-AND-RUNBOOK]]: the CP3 freeze list, the CP3 night runbook (from Oct 26) and the readiness preflight spec (v2), with the Proxy's answers.
 - 2026-10-24 — [[Gameplans/2026-10-24-GAMEPLAN-SAT2]]: Claude's second Saturday set (Opus, plan mode, main `c0692c18`): nothing valuable is left to build before CP3, so read-only gap checks, docs and one baseline test run; it follows the merge batch that ran Oct 24 1:47-1:49 AM ET (the first set's Sunday 7-9 PM slot is superseded).
 - 2026-10-23 — [[Gameplans/2026-10-23-CLAUDE-ONLY-USER-CONCERNS]]: the user's concerns, habits and must-haves for a Claude-only switch (Proxy, 12:20 AM ET; read before designing any Claude-only setup).
 - 2026-10-22 — [[Gameplans/2026-10-22-PLAN-POST-CP2-v2]] (post-CP2 plan v2: current; refreshed ~11:40 PM ET with PR 1a anchor and item 22a; decisions A-E approved by the user 11:36 PM ET).
