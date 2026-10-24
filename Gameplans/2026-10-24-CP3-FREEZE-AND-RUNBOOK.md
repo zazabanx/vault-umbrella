@@ -75,7 +75,7 @@ Nothing merges while the user is live. No work during OBS. Old re-scans and Oct 
 ## 4. $0 readiness preflight (replaces the `cp3_run --night 2026-10-26` dry run)
 **Why it replaces the dry run.** Before the first stream there are no Oct 26 files, so `cp3_run` has nothing to find. It only proves the night is accepted (the Oct 23 run proved the refusal, exit 3). The preflight checks the things that actually decide whether the night runs.
 
-**Spec: one run on each machine, Oct 26 evening after the reload, and again before the stream.** Read-only, no network, no model call, no lock, nothing written. It prints PASS, WARN, FAIL or INFO per line and exits 1 on any FAIL.
+**Spec: one run on each machine right after the final batch's pull (Sat or Sun; no reload), and again Monday Oct 26 morning before the stream.** Read-only, no network, no model call, no lock, nothing written. It prints PASS, WARN, FAIL or INFO per line and exits 1 on any FAIL.
 
 Both machines:
 | Line | PASS when |
