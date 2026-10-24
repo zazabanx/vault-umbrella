@@ -10,7 +10,7 @@ Columns stay `ID | Item | Owner | Due | State | Source`. No Bot column. The sect
 
 States are `open`, `waiting on user since YYYY-MM-DD`, or `done YYYY-MM-DD`. Due `—` means no date. A done item moves to Done and is pruned 14 days after the done date. An item that misses its due date twice is marked `flagged` in State. The nightly vault note and Sunday dreaming keep this file current.
 
-A bot edits the rows it owns, including inherited `OI-` ids, and appends only its own prefix. Prefixes: `OI-` Auto-clip, `CR-` Renders & Review, `RS-` Research, `LF-` Long-form, `PE-` Personal, `PX-` Proxy. Not one shared counter. `RR-` is a rating-round file id, not an open-item prefix. Next OI is OI-064. Do not fill gaps. CR rows are CR-001 to CR-004. Next CR is CR-005. Future Research rows start at `RS-001`. Next Personal id is `PE-001`.
+A bot edits the rows it owns, including inherited `OI-` ids, and appends only its own prefix. Prefixes: `OI-` Auto-clip, `CR-` Renders & Review, `RS-` Research, `LF-` Long-form, `PE-` Personal, `PX-` Proxy. Not one shared counter. `RR-` is a rating-round file id, not an open-item prefix. Next OI is OI-065. Do not fill gaps. CR rows are CR-001 to CR-004. Next CR is CR-005. Future Research rows start at `RS-001`. Next Personal id is `PE-001`.
 
 On 2026-11-01 mark OI-015 done; PX-001 stays open.
 
