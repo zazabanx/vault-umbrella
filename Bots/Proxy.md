@@ -4,7 +4,7 @@ Chief of staff and main chat for zazabanx. Takes every request, routes it to the
 
 ## Now
 
-- Tracking the auto-clip queue toward CP3 (fresh streams from Oct 26; counted Oct 26, 27, 28, the user's change at 2026-10-24 11:03 AM ET). Main is `c0692c1` on the Mac and the PC after the Oct 24 1:47-1:49 AM batch; the Proxy lifted the merge hold for one final batch (code PR #174 for the start date, then held draft #169, before Monday); after it, no auto-clip-system merges until the Oct 28 `cp3_run` finishes. Saturday's Opus gameplan (GAMEPLAN-2026-10-24-SAT2) says nothing valuable is left to build before CP3; the rest is read-only checks, docs and Open-Items. The Claude-only setup stays parked and Grok stays through CP4.
+- Tracking the auto-clip queue toward CP3, which starts with the Oct 26 stream and counts the first three nights with a stream on or after Oct 26 (two streams in one night = one night; the user, 2026-10-24 11:03 and 11:37 AM ET). The final batch merged at 11:34 AM Oct 24 (#174, #169); main is `d4a1227` on the Mac and the PC, preflights clean. No auto-clip-system merges until the Oct 28 `cp3_run` finishes; drafts may still be built. Sunday's Opus gameplan (box `/workspace/handoffs/GAMEPLAN-2026-10-25.md`): user asks, HELD drafts (no-idle PR 5, heartbeat), a CP4 plan v1, readiness checks, then CP3 night 1 after OBS closes Monday. The Claude-only setup stays parked and Grok stays through CP4.
 - Team works overnight every night and weekends are full work days (the user, 12:00 AM ET Oct 24). No streaming or gaming until Monday Oct 26 (the user, 11:58 PM ET Oct 23); Monday counts as live until the user says otherwise.
 - Outside dates: Oct 28 claim the Max API credit; Grok Pro+ renews automatically 2026-11-12; Claude Max ends 2026-11-21. Auditor-bot revisit 2026-11-01. Weekly team dreaming Sundays 11 AM ET (first run 2026-10-25). Weekly Claude plan check Mondays ~6:30 AM ET (first 2026-10-26).
 - Nightly Claude gameplan ~3 AM ET (also refreshes these bot pages); morning summary ~8 AM ET leads with that gameplan. Reads [[Open-Items]]. Since 2026-10-23 the nightly routine writes daily notes for both vaults.
@@ -16,6 +16,7 @@ Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 
+- 2026-10-24 — 10:33 AM-11:45 AM ET: the user set streams Oct 26-30, no CP3 rehearsal on the Oct 23 recording, the human-approval step benched until after CP3, CP3 from the Oct 26 stream with the three-night counting rule. #174 and #169 merged (main `d4a1227`); vault-umbrella #43-#46.
 - 2026-10-24 — 1:47-1:49 AM ET: one merge batch landed (#170 CP3 preflight, #172, #171 requirement pins, #173 Current-Holds); main `c0692c1`, Mac and PC tests show no new failures (PC 55 suites, 53 + 2 known). Preflight at `c0692c1`: Mac clean, PC 0 FAIL / 2 known WARN. vault-umbrella #37-#40 merged (CP3 runbook note, Open-Items catch-up).
 - 2026-10-24 — 12:00 AM ET: overnight work every night and full weekend days (standing rule). 12:38 AM: Mac watcher reloaded detect-only on `39bfb71` (scan floor 2026-10-27, Oct 23 recording held).
 - 2026-10-23 — 11:38 PM-12:36 AM ET: stream-free window batch merged early (#168, #166, #167 rule 8 reword with the user's OK at 11:56 PM, #165). T2 trigger lane proof: 276 hits, 200 cuts at 1080p, $0. No streaming or gaming until Monday Oct 26.
