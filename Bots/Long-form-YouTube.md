@@ -4,10 +4,8 @@ Long-form Elden Ring YouTube episodes from the 2026-10-07, 2026-10-08, 2026-10-0
 
 ## Now
 
-- Oct 9 recut break report (LF-005, due 2026-10-22), then Oct 7 and Oct 8 break reports (LF-006 and LF-007, due 2026-10-22).
-- Oct 15 break report (LF-008, due 2026-10-23).
-- Editor PR5 (LF-009, due 2026-10-24). DaVinci editing package PR6 is queued after PR5 (LF-011, due 2026-10-26).
-- YouTube upload prep follows the editor and the user's break ticks. Nothing is posted without the user's OK (LF-012).
+- On hold (the user, 2026-10-25 8:22 AM ET): do not run long-form work until the user lifts the hold. LF-005 to LF-012 wait on the user.
+- When the hold lifts: break reports LF-005 (Oct 9 recut), LF-006 and LF-007 (Oct 7, Oct 8), LF-008 (Oct 15), then editor PR5 (LF-009) and the DaVinci package PR6 (LF-011). Upload prep (LF-012) needs the user's OK.
 - Plans folder: `/workspace/longform-youtube/plans/` on the bot computer.
 
 ## Open
@@ -16,6 +14,7 @@ Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 
+- 2026-10-25 — Long-form put on hold by the user; nothing runs until it lifts.
 - 2026-10-20 — PRs #70, #89, #90 and #91 merged into auto-clip-system main; PC tests passed.
 - 2026-10-20 — DaVinci Resolve smoke test passed on the PC (4 audio tracks; fcpxml timeline opens with 2 clips and 4 tracks).
 - 2026-10-20 — Re-cut Oct 9 only. Skip the Twitch download. No uploads, titles, or thumbnails until the editor is built. The top editor feature is the break/AFK report.
