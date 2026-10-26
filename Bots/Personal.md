@@ -4,10 +4,7 @@ Personal tasks outside software projects: flights, purchases, bookings, and pers
 
 ## Now
 
-- Sanibel trip flight search (options found 2026-10-20). Back by 2026-11-12. Waiting on the user's pick.
-- $246 PVD to RSW on Breeze, 2026-11-07 to 2026-11-12.
-- $248 BDL to RSW on Breeze, nonstop, 2026-11-08 to 2026-11-12.
-- $373 BOS to RSW on Delta, nonstop, 2026-11-08 to 2026-11-12.
+- Nothing open. The Sanibel trip flight search was ended by the user (2026-10-25 8:22 AM ET); nothing was booked or bought.
 
 ## Open
 
@@ -15,6 +12,7 @@ Rows live in [[Open-Items]]; update the rows you own.
 
 ## Recent
 
+- 2026-10-25 — Sanibel trip task ended by the user. Nothing booked.
 - 2026-10-20 — Sanibel options found. Waiting on the user's pick. Nothing booked or bought.
 
 Newest first. Prune after 14 days.
