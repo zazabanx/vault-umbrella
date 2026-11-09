@@ -15,3 +15,4 @@
 - [[2026-11-05]] — Team note. No stream. auto-clip-system merged #279 and #288 (main `dfa5a9c`); Plan 16 code cleanup approved, its builds have no PR yet. The stacks did not move. `Decisions.md` at its cap, so #274 goes first.
 - [[2026-11-06]] — Team note. No stream. auto-clip-system merged #289 (main `ac985f2`), umbrella #62 merged. No code PR moved; nothing has started the landing work. `Decisions.md` at its cap, so #274 goes first.
 - [[2026-11-07]] — Team note. No stream, no user message. auto-clip-system merged #291 (main `52162d8`), umbrella #63 merged. No code PR moved, the fourth day. Grok plan answer due Nov 8. `Decisions.md` at its cap, so #274 goes first.
+- [[2026-11-08]] — Team note. No stream. auto-clip-system merged #293 (main `638dfdd`), umbrella #64 merged. The user asked for a watch on Future Brian's X posts (#295). No code PR moved, the fifth day. Grok plan answer was due today and is open. `Decisions.md` at its cap, so #274 goes first.
